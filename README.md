@@ -1,87 +1,40 @@
-# Welcome to React Router!
+# 🌍 AtlaSaltA - Country Explorer React App
 
-A modern, production-ready template for building full-stack React applications using React Router.
+A React application that fetches and displays information about countries worldwide using the REST Countries API. Users can search countries by name, filter by region, and view detailed information including flags, maps, population and more.
+
+A modern, React application using React Router v7 and tailwind CSS v4.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
 
-## Features
+## 🛠 Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- Home Page with a hero section and navigation links
 
-## Getting Started
+- Countries Page
+  -- Search by country name
+  -- Filter by region
+  -- Responsive country cards
 
-### Installation
+- Country Detail Page
+  -- Flag and map of the country
+  -- Population, region, sub-region, capital
+  -- Fully responsive layout
 
-Install the dependencies:
+- About Page explaining the project
+- Accessibility-friendly with semantic HTML and ARIA attributes
 
-```bash
-npm install
-```
+## 💻 Technologies used
 
-### Development
+- React 19
+- React Router v7
+- Tailwind CSS v4
+- REST Countries API
+- JavaScript (ES6+)
 
-Start the development server with HMR:
+## 🔗 API used
 
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+https://restcountries.com/
 
 ---
 
-Built with ❤️ using React Router.
+This project is meant only for practice and learning purposes.
