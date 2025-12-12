@@ -4,8 +4,6 @@ A React application that fetches and displays information about countries worldw
 
 A modern, React application using React Router v7 and tailwind CSS v4.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
 ## 🛠 Features
 
 - Home Page with a hero section and navigation links
